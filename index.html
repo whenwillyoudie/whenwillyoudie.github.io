@@ -2,5 +2,10 @@
   <head>
     <title>When will you die</title>
   </head>
-  <body></body>
+  <body>
+    <h1>You will die at the age of: <span id="age"></span></h1>
+    <script>
+      document.getElementById("age").innerHTML = Math.round(40+(Math.random()*50));
+    </script>
+  </body>
 </html>
